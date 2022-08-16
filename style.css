@@ -123,6 +123,9 @@ h2{
 .mr-6 {
   margin-right: 24px;
 }
+.ml-8 {
+  margin-left: 32px;
+}
 .py-14 {
   padding-top: 56px;
   padding-bottom: 56px;
@@ -139,6 +142,19 @@ h2{
 .about {
   font-weight: 700;
   text-align: center;
+}
+.li-dot {
+  position: relative;
+}
+.li-dot::before{
+  content: "";
+  width: 22px;
+  height: 22px;
+  background-color: #891818;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  border-radius: 50%;
 }
 .brand {
   background: #000;
